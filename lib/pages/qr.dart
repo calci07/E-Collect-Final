@@ -152,6 +152,7 @@ class _QRContentState extends State<QRContent> {
           AppBar(
             backgroundColor: Colors.white,
             elevation: 0,
+            automaticallyImplyLeading: false,
             title: const Text(
               'QR Scanner',
               style: TextStyle(

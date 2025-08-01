@@ -94,6 +94,7 @@ class DashboardTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      automaticallyImplyLeading: false,
       backgroundColor: Colors.white,
       title: const Text(
         'Dashboard',

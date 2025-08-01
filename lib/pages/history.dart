@@ -74,6 +74,7 @@ class _HistoryContentState extends State<HistoryContent> {
       children: [
         const SizedBox(height: 20),
         AppBar(
+          automaticallyImplyLeading: false,
           backgroundColor: Colors.white,
           title: const Center(
             child: Text(

@@ -115,6 +115,7 @@ class _ProfileContentState extends State<ProfileContent> {
           : Column(
               children: [
                 AppBar(
+                  automaticallyImplyLeading: false,
                   backgroundColor: Colors.white,
                   elevation: 0,
                   title: const Center(

@@ -10,6 +10,7 @@ class Rewards extends StatelessWidget {
       children: [
         SizedBox(height: 20),
         AppBar(
+          automaticallyImplyLeading: false,
           backgroundColor: Colors.white,
           title: Center(
             child: Text(
